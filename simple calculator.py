@@ -1,16 +1,13 @@
 last_calc=0
 while True:
     print("Calculator Program")
-# Goals: uh, basically, i wanna do the same thing, but
-# i wanna store the values so that it can be repeated using diff calc
-# and another option to throw that away and reset
-# i then wanna develop this to include more complex arithmethics
-    print("1. Penjumlahan")
-    print("2. Pengurangan")
-    print("3. Perkalian")
-    print("4. Pembagian")
-    print("5. Sisa")
-    print("6. Perpangkatan")
+    # i wanna develop this later to include more complex arithmethics
+    print("1. Penjumlahan (+)")
+    print("2. Pengurangan (-)")
+    print("3. Perkalian (*)")
+    print("4. Pembagian (/)")
+    print("5. Sisa (%)")
+    print("6. Perpangkatan (**)")
     print("7. Close the Program")
     print("Previous Calculation Value:", last_calc)
     choice=input("Choose between the operations above (1-7): ")
@@ -42,16 +39,16 @@ while True:
                 result=num1*num2
                 print(num1,"*",num2,"=",int(result))
             elif choice=='4':
-                result=num1/num2
                 if num2==0:
                     print("Division by zero is not allowed.")
                     continue
+                result=num1/num2
                 print(num1,"/",num2,"=",float(result))
             elif choice=='5':
-                result=num1%num2
                 if num2==0:
                     print("Modulo by zero is not allowed.")
                     continue
+                result=num1%num2
                 print(num1,"%",num2,"=", float(result))
             elif choice=='6':
                 result=num1**num2
