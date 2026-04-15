@@ -8,8 +8,8 @@ To use the code and run it, just copy it into an editor like Visual Studio Code,
 For example, when using the linux terminal, go to the directory of the python file and use the command "python3 'simple calculator.py'" and the code will run in the terminal.
 After that, you may use the program as you please, and feel free to modify and change the code to fit your needs.
 
-Maintainer & Creator: Dieselxue (https://github.com/dieselxue)
+Maintainer & Creator: Bi-xing (https://github.com/bi-xing)
 
-Project Link: https://github.com/dieselxue/Python-Calculator
+Project Link: https://github.com/bi-xing/Python-Calculator
 
-License: https://github.com/dieselxue/Python-Calculator/blob/main/LICENSE
+License: https://github.com/bi-xing/Python-Calculator/blob/main/LICENSE
